@@ -4,7 +4,7 @@ Problem https://codeforces.com/problemset/problem/231/A
 
 
 import java.util.Scanner;
-public class Main{
+public class Problem231A{
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 	    int num = in.nextInt();
