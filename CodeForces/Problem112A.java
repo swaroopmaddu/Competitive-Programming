@@ -2,7 +2,7 @@
 https://codeforces.com/problemset/problem/112/A
 */
 import java.util.Scanner;
-public class Problem112 {
+public class Problem112A {
 	public static void main(String[] args) {
     	Scanner in = new Scanner(System.in);
     	String str1 = in.next();
@@ -18,5 +18,7 @@ public class Problem112 {
         } else {
             System.out.println("0");
         }
+
+	    in.close();
 	}
 }

@@ -12,6 +12,8 @@ public class Problem472A {
 	        System.out.printf("%d %d",(n-4),4);
 	    }else{
 	        System.out.printf("%d %d",(n-9),9);
-	    }
+		}
+		
+	    in.close();
 	}
 }

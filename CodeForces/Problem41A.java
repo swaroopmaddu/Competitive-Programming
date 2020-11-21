@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Problem41A {
 	public static void main(String[] args) {
 	    
-	    Scanner in = new Scanner(System.in);
+		Scanner in = new Scanner(System.in);
 	    String s = in.nextLine();
 	    String t = in.nextLine();
 	    
@@ -15,12 +15,14 @@ public class Problem41A {
 	    
 	    if(sLength!=tLength){
 	        System.out.println("NO");
+			in.close();
 	        return;
 	    } 
 	    
 	    for (int i=0;i<sLength ;i++ ){
 	        if(s.charAt(i) != t.charAt(sLength-i-1)){
 	            System.out.println("NO");
+				in.close();
 	            return;
 	        }
 	    }

@@ -2,7 +2,7 @@
     https://codeforces.com/problemset/problem/486/A
 */
 import java.util.Scanner;
-public class Main {
+public class Problem486A {
 	public static void main(String[] args) {
 	    Scanner in = new Scanner(System.in);
 	    long n = in.nextLong();

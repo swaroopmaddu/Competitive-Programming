@@ -2,7 +2,7 @@
     https://codeforces.com/problemset/problem/1328/A
 */
 import java.util.Scanner;
-public class Main {
+public class Problem1328A {
 	public static void main(String[] args) {
 	    Scanner in = new Scanner(System.in);
 	    int num = in.nextInt();

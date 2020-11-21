@@ -3,7 +3,7 @@ https://codeforces.com/problemset/problem/158/A
 */
 import java.util.Scanner;
 
-public class Porblem158A {
+public class Problem158A {
 	public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int participants;
@@ -28,5 +28,6 @@ public class Porblem158A {
             }
         } 
         System.out.println(participants);
+        in.close();
 	}
 }

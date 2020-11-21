@@ -4,7 +4,7 @@
 
 import java.util.Scanner;
 import java.util.HashSet;
-public class Main {
+public class Problem520A {
 	public static void main(String[] args) {
 	    Scanner in = new Scanner(System.in);
 	    int size = in.nextInt();

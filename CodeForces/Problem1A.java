@@ -1,10 +1,10 @@
 /*
-Problem https://codeforces.com/problemset/problem/1/A
+	Problem https://codeforces.com/problemset/problem/1/A
 */
 
 import java.lang.Math;
 import java.util.Scanner;
-public class Main{
+public class Problem1A{
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 	    double n = in.nextDouble();

@@ -24,5 +24,7 @@ public class Problem141A {
         } else {
             System.out.println("NO");
         }
+
+	    in.close();
 	}
 }

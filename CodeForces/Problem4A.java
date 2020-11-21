@@ -1,5 +1,5 @@
 /*
-Problem4A url https://codeforces.com/problemset/problem/4/A
+	Problem4A url https://codeforces.com/problemset/problem/4/A
 */
 import java.util.Scanner;
 public class Problem4A{
