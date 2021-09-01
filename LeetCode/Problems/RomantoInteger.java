@@ -1,12 +1,7 @@
 import java.util.HashMap;
-
-/**
- *
- * @author Sai
- */
 public class RomantoInteger {
     public static int romanToInt(String s) {
-        HashMap<Character,Integer> romans = new HashMap();
+        HashMap<Character,Integer> romans = new HashMap<>();
         romans.put('I',1);
         romans.put('V',5);
         romans.put('X',10);
